@@ -10,7 +10,7 @@
 <div class="container">
     <nav class="nav nav-pills nav-fill">
         <a class="nav-link" href="/two_classes">Два класса</a>
-        <a class="nav-link" href="#">Тест Струпа</a>
+        <a class="nav-link" href="/stroop">Тест Струпа</a>
         <a class="nav-link" href="#">Серия А(Архив результатов)</a>
         <a class="nav-link" href="#">Запросы к БД</a>
     </nav>
