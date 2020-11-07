@@ -12,8 +12,15 @@ class MainController
 {
     public function index()
     {
-        $page_title = 'DNA_325';
-        $breadcrumb = [ '/' => 'Главная'];
-        require __DIR__ . '/../views/main/index.php';
+        $breadcrumb = ['/' => 'Главная'];
+
+        require_once __DIR__ . '/../views/main/index.php';
+    }
+
+    public function twoClasses()
+    {
+        $breadcrumb = ['/' => 'Главная', '/two_classes' => 'Выбрать класс и метод'];
+
+        require_once __DIR__ . '/../views/main/two_classes.php';
     }
 }

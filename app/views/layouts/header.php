@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title><?= /** @var string $page_title */ $page_title ?></title>
+    <title>DNA_325</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
           integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
           crossorigin="anonymous">
@@ -9,7 +9,7 @@
 <br>
 <div class="container">
     <nav class="nav nav-pills nav-fill">
-        <a class="nav-link" href="#">Два класса</a>
+        <a class="nav-link" href="/two_classes">Два класса</a>
         <a class="nav-link" href="#">Тест Струпа</a>
         <a class="nav-link" href="#">Серия А(Архив результатов)</a>
         <a class="nav-link" href="#">Запросы к БД</a>
