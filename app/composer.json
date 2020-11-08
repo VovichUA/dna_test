@@ -3,7 +3,8 @@
     "psr-4": {
       "App\\": "../app",
       "App\\Controller\\": "controllers",
-      "App\\Interfaces\\": "interfaces"
+      "App\\Interfaces\\": "interfaces",
+      "App\\Libraries\\": "libraries"
     }
   }
 }

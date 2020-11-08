@@ -3,6 +3,7 @@
 use App\Controller\MainController;
 use App\Controller\NumberClasses\FirstClass;
 use App\Controller\NumberClasses\SecondClass;
+use App\Controller\ParsTerrikonController;
 use App\Controller\StroopController;
 
 ini_set('display_errors', 1);
@@ -13,6 +14,7 @@ $app = new MainController();
 $firstClass = new FirstClass();
 $secondClass = new SecondClass();
 $stroop = new StroopController();
+$terrikon = new ParsTerrikonController();
 if (trim($_SERVER["REQUEST_URI"]) === '/') {
     $app->index();
 } elseif (trim($_SERVER["REQUEST_URI"]) === '/two_classes') {
@@ -29,6 +31,10 @@ if (trim($_SERVER["REQUEST_URI"]) === '/') {
     $stroop->index();
 } elseif (trim($_SERVER["REQUEST_URI"]) === '/stroop/result_stroop') {
     $stroop->resultStroop();
+} elseif (trim($_SERVER["REQUEST_URI"]) === '/terrikon') {
+    $terrikon->index();
+} elseif (trim($_SERVER["REQUEST_URI"]) === '/terrikon/result') {
+    $terrikon->result();
 } else {
     require_once __DIR__.'/views/404.php';
 }
