@@ -35,6 +35,8 @@ if (trim($_SERVER["REQUEST_URI"]) === '/') {
     $terrikon->index();
 } elseif (trim($_SERVER["REQUEST_URI"]) === '/terrikon/result') {
     $terrikon->result();
+} elseif (trim($_SERVER["REQUEST_URI"]) === '/example_query') {
+    require_once __DIR__.'/views/example_query.php';
 } else {
     require_once __DIR__.'/views/404.php';
 }
