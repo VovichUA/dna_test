@@ -1,9 +1,10 @@
 <?php require_once __DIR__.'/../layouts/header.php'; ?>
     <form action="/stroop/result_stroop" method="post">
         <?php for ($i=0;$i<5;$i++): ?>
-        <p style="background-color: <?= /** @var string $color */$color[$i] ?>">
+        <b style="color: <?= /** @var string $color */$color[$i] ?>">
             <?= /** @var string $word */ $word[$i] ?>
-        </p>
+        </b>
+            <br>
 
             <?php /** @var array $colors */
             foreach ($colors as $col): ?>

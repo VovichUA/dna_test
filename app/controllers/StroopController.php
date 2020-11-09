@@ -20,6 +20,7 @@ class StroopController
             $color[$i] = $colors[0];
             $word[$i] = $colors[1];
         }
+        $stroop = true;
 
         require_once __DIR__ . '/../views/main/stroop.php';
     }
@@ -31,6 +32,7 @@ class StroopController
             $count += (int)$result;
         }
         $breadcrumb = ['/' => 'Главная', '/stroop' => 'Тест Струпа', '/stroop/result_stroop' => 'Результат теста'];
+        $stroop = true;
 
         require_once __DIR__ . '/../views/main/stroop_result.php';
     }
