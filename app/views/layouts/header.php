@@ -9,7 +9,8 @@
 <br>
 <div class="container">
     <nav class="nav nav-pills nav-fill">
-        <a class="nav-link" href="/two_classes">Два класса</a>
+        <a class="nav-link <?php /** @var bool $two_class */ if ($two_class): ?> active <?php endif; ?>"
+           href="/two_classes">Два класса</a>
         <a class="nav-link" href="/stroop">Тест Струпа</a>
         <a class="nav-link" href="/terrikon">Серия А(Архив результатов)</a>
         <a class="nav-link" href="/example_query">Запросы к БД</a>

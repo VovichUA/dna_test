@@ -20,6 +20,7 @@ class FirstClass implements NumberInterface
             '/two_classes' => 'Выбрать класс и метод',
             '/two_classes/first_class_name' => 'first class name'
         ];
+        $two_class = true;
 
         require_once __DIR__.'/../../views/two_classes/index.php';
     }
@@ -32,6 +33,7 @@ class FirstClass implements NumberInterface
             '/two_classes' => 'Выбрать класс и метод',
             '/two_classes/first_letter' => 'first letter'
         ];
+        $two_class = true;
 
         require_once __DIR__.'/../../views/two_classes/index.php';
     }

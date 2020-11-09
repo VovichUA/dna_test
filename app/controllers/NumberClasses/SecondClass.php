@@ -15,12 +15,12 @@ class SecondClass implements NumberInterface
     public function getClassName()
     {
         $message = 'second';
-        $message = 'B';
         $breadcrumb = [
             '/' => 'Главная',
             '/two_classes' => 'Выбрать класс и метод',
             '/two_classes/second_class_name' => 'second class name'
         ];
+        $two_class = true;
 
         require_once __DIR__.'/../../views/two_classes/index.php';
     }
@@ -33,6 +33,7 @@ class SecondClass implements NumberInterface
             '/two_classes' => 'Выбрать класс и метод',
             '/two_classes/second_letter' => 'second letter'
         ];
+        $two_class = true;
 
         require_once __DIR__.'/../../views/two_classes/index.php';
     }

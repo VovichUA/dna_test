@@ -20,6 +20,7 @@ class MainController
     public function twoClasses()
     {
         $breadcrumb = ['/' => 'Главная', '/two_classes' => 'Выбрать класс и метод'];
+        $two_class = true;
 
         require_once __DIR__ . '/../views/main/two_classes.php';
     }
