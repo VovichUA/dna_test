@@ -2,3 +2,6 @@
 2. docker-compose up -d
 3. docker-compose exec app composer dump-autoload
 4. open localhost:8005
+___________________________________________________
+
+Консольный скрипт php запускается в коне пакой командой php app.php
